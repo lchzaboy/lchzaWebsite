@@ -349,8 +349,9 @@ body {
 
 .l-section {
     position: absolute;
-    width: 100%;
-    height: 100%
+    width: 80%;
+    height: 80%;
+    padding: 0;
 }
 
 .device-notification {
@@ -935,7 +936,7 @@ body {
     display: flex;
     width: 80%;
     margin: 0 auto;
-    padding: 0;
+    padding: 0f;
     list-style: none
 }
 
