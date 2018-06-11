@@ -127,6 +127,11 @@ section {
 	color: #FFA318;
 }
 
+.titulo {
+	color: #FFA318;
+	margin: 0;
+}
+
 /* Related demos */
 .related {
 	padding: 4em 0 3em;
