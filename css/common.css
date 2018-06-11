@@ -367,9 +367,9 @@ sub
 .one img,  .one_half img,  .one_third img,  .two_third img, 
 .three_fourth img,  .one_fourth img{
     max-width: 400px;
+    width: 100%;	
     height: auto;
     max-height: 400px;
-    width: auto;	
     display: block;
     margin-bottom: 30px;
     
