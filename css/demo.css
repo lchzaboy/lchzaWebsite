@@ -130,6 +130,7 @@ section {
 .titulo {
 	color: #FFA318;
 	margin: 0;
+	text-align: left;
 }
 
 /* Related demos */
