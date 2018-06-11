@@ -1,2 +1,97 @@
-<h1>hello lchza </h2>
-<h2>Commit test</h2>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LCHZA</title>
+	<meta name="description" content="Page Preloading Effect: Re-creating the effect seen on fontface.ninja" />
+	<meta name="keywords" content="page loading, effect, initial, logo, sliding, web design, css animation, transform" />
+	<meta name="author" content="Codrops" />
+	<!--link rel="shortcut icon" href="../favicon.ico"-->
+	<link rel="icon" href="favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/effect1.css" />
+	<link rel="stylesheet" type="text/css" href="css/reader.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+
+<body class="demo-1">
+	<div id="ip-container" class="ip-container">
+		<!-- initial header -->
+		<header class="ip-header">
+			<h1 class="ip-logo">
+				<svg class="ip-inner" width="100%" height="100%" viewBox="0 0 300 160" preserveAspectRatio="xMidYMin meet" aria-labelledby="logo_title">
+					<path d="m 147.64218,72.012366 c -4.41579,-1.979806 -25.20165,-14.26921 -26.25823,-15.524883 -1.15048,-1.367263 -1.20878,-1.753044 -1.26451,-8.367355 -0.15314,-18.173014 0.0761,-23.997807 0.9942,-25.275797 0.50461,-0.702337 6.34791,-4.226321 13.79069,-8.316921 11.23846,-6.17672 13.20085,-7.0980333 15.11659,-7.0969536 1.91771,0.00103 3.87303,0.9249095 15.16616,7.1655196 7.13053,3.94036 13.3615,7.695438 13.84658,8.34463 0.80514,1.077534 0.88272,2.505846 0.89046,16.397815 0.007,12.505931 -0.12083,15.467517 -0.71721,16.620783 -0.55147,1.066428 -3.86116,3.200108 -13.78625,8.887635 -7.1833,4.116374 -13.75199,7.578527 -14.59707,7.693664 -0.84507,0.115137 -2.27671,-0.122523 -3.18141,-0.528137 z m 0.42182,-6.203075 c 0,-1.674393 -0.41638,-2.592737 -2.32385,-5.125217 -2.08451,-2.767561 -2.95035,-3.426606 -8.4073,-6.39932 -3.34589,-1.822703 -6.25808,-3.385772 -6.4715,-3.473484 -0.21342,-0.08771 -1.59938,0.786594 -3.07991,1.942899 -1.80565,1.410227 -2.49373,2.22189 -2.09003,2.465389 4.30704,2.597897 21.7315,12.572237 22.00567,12.596789 0.20181,0.01808 0.36692,-0.885107 0.36692,-2.007056 z m 15.65295,-4.371351 11.21856,-6.411272 -2.68014,-2.183215 -2.68012,-2.183216 -6.12883,3.25133 c -5.43297,2.88218 -6.43197,3.61883 -8.7987,6.488131 -2.31906,2.811509 -2.66987,3.513565 -2.66987,5.343155 0,1.158496 0.11713,2.106352 0.26027,2.106352 0.14315,0 5.30862,-2.885079 11.47883,-6.411265 z M 148.064,49.531585 l 0,-8.53299 -4.52538,-2.64056 C 128.82101,29.770323 124.4072,27.253709 124.28227,27.378656 c -0.1307,0.130701 23.39284,30.619644 23.65942,30.665084 0.0673,0.01142 0.12231,-3.819003 0.12231,-8.512155 z m 15.76374,-6.424299 c 6.30765,-8.091977 11.65114,-15.008279 11.87443,-15.369564 0.43073,-0.696936 0.24101,-0.593198 -14.18432,7.755711 l -9.29538,5.379862 -0.13398,8.688856 c -0.0737,4.778868 -0.0429,8.591863 0.0684,8.473339 0.11131,-0.118533 5.36319,-6.836229 11.67084,-14.928204 z m -37.4752,6.51807 2.11199,-1.589997 0.0152,-4.678151 0.0152,-4.67815 -2.24958,-3.027234 c -1.23725,-1.664975 -2.338,-3.027228 -2.44613,-3.027228 -0.10809,0 -0.19658,4.182919 -0.19658,9.295381 0,5.112458 0.14357,9.295384 0.31904,9.295384 0.17548,0 1.26945,-0.715503 2.43103,-1.590005 z m 50.08684,-7.460764 c 0,-4.977925 -0.16512,-9.044133 -0.36693,-9.036023 -0.2018,0.0081 -1.30257,1.249502 -2.44616,2.758639 l -2.07922,2.743887 0,4.719741 0,4.719749 2.04586,1.572384 c 1.12522,0.864815 2.22599,1.572392 2.44615,1.572392 0.22016,0 0.4003,-4.072849 0.4003,-9.050769 z m -40.10066,6.482304 c -0.83173,-1.143574 -2.16042,-2.849771 -2.95261,-3.791535 l -1.44039,-1.712307 -0.006,2.201537 c -0.006,2.174345 0.029,2.220731 2.79992,3.755507 1.543,0.85469 2.87419,1.570189 2.95819,1.590005 0.084,0.01983 -0.5278,-0.899629 -1.35954,-2.043207 z m 31.78373,-3.170616 c 0,-1.148736 -0.0836,-2.088611 -0.18583,-2.088611 -0.16229,0 -3.13182,3.768683 -5.15622,6.543881 -0.5269,0.722315 0.0336,0.551708 2.32384,-0.707384 2.96771,-1.631509 3.01821,-1.694224 3.01821,-3.747886 z M 148.17553,22.717308 c 0.0813,-6.49958 -0.0481,-10.640987 -0.3324,-10.640768 -0.25603,2.03e-4 -5.38137,2.684714 -11.38964,5.965582 -6.92652,3.782282 -10.69486,6.099857 -10.29758,6.333132 0.3446,0.202357 5.35987,3.102129 11.14503,6.443938 l 10.51845,6.076014 0.11153,-1.768385 c 0.0613,-0.972605 0.17143,-6.55689 0.24461,-12.409513 z m 16.65156,6.987199 c 5.31807,-3.050325 9.61107,-5.594491 9.54,-5.653705 -0.40978,-0.34135 -20.82465,-11.484468 -21.53309,-11.753474 -0.80161,-0.304392 -0.85615,0.476064 -0.85615,12.250945 l 0,12.576043 1.58999,-0.936879 c 0.87451,-0.515282 5.94117,-3.432604 11.25925,-6.48293 z"
+					/>
+				</svg>
+			</h1>
+			<div class="ip-loader">
+				<svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+					<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"
+					/>
+					<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"
+					/>
+				</svg>
+			</div>
+		</header>
+		<!-- top bar -->
+		<div class="codrops-top clearfix">
+			<a class="codrops-icon " href="#">
+				<span></span>
+			</a>
+			<!--span class="right">
+				<a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=19535">
+					<span></span>
+				</a>
+			</span-->
+		</div>
+		<!-- main content -->
+		<div class="ip-main">
+			<nav class="codrops-demos">
+				<a class="current-demo" href="index.html">Home</a>
+				<a href="#">Press</a>
+				<a href="#">Team</a>
+				<!--a href="#">News</a-->
+			</nav>
+			<h3>Welcome to LCHZA!.</h3>
+			<!--h2>Big News! Américo is getting a videogame. </h2-->
+			<!--div class="browser clearfix">
+				</div>
+			<div class="clearfix">
+				<p>Bad North is developed by Plausible Concept, a brand new independent game studio in Malmö, Southern Sweden, founded by Oskar Stalberg and Richard Meredith.We want to take our extensive experience on much larger projects and focus that down on creating something smaller and more personal with Bad North.</p>
+			</div-->
+			<!--span></span>
+			<article>
+				<h2>Big News! Américo is getting a videogame. </h2>
+				<div class="browser clearfix">
+					</div>
+				<h4>No, we're not kidding</h4>
+				<p>They say all things began as nothing. I should believe this, but it is difficult to conceive of nothing in the middle
+					of a world that is so full. I close my eyes and try to picture a darkness, but even that is something. We are told that
+					there was a big bang at the beginning of time that created the universe, but this turns creation into a spectacle. I’m
+					skeptical of showmanship. The romantic in me wants to imagine there was no flash, no bang. Perhaps instead there was
+					a quiet dignity to the spurring of matter from nothingness. I tell myself a story to draw back the darkness and fill
+					the void.</p>
+				<hr>
+				<p>In the beginning, a voice slowly approached from afar, so unhurried that it was hardly noticeable. “Better,” it whispered.
+					But no bang, no fireworks. No grand gestures or swipes of God. The secret closed in and contained the void, like how
+					a hushed, familiar voice in the dark can create a pocket of warmth around it. I picture how the loose gases firmed to
+					make the planets. The spheres spun, and the atoms collided and combined in uncountable ways over billions of years.
+					The cocktail thickened and congealed, and after an unimaginable number of attempts, life showed up, sprawled out, then
+					pushed on. We gained hearts and eyes, legs and hands. We crawled out of the muck, climbed into the trees, and eventually
+					came back down.</p>
+				<p>The first boom, the recipe that produced the universe and life, was born of circumstance. The second boom, one of the
+					mind and making, was by design.</p>
+			</article-->
+		</div>
+	</div>
+	<!-- /container -->
+	<script src="js/classie.js"></script>
+	<script src="js/pathLoader.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
