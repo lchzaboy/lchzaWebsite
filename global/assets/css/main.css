@@ -291,6 +291,7 @@ body {
     /*max-width: 1280px;*/
     list-style-type: none;
     padding: 0;
+    background: green;
     width: 100%;
 }
 .l-viewport {
@@ -882,7 +883,7 @@ ul {
         height: 360px
     }
     .intro--banner h1 {
-        font-size: 55px
+        font-size: 48px
     }
     .intro--banner img {
         display: inline-block;
