@@ -895,10 +895,10 @@ ul {
     .intro--banner {
         height: auto
     }
-    .intro--banner::before,
+    /*.intro--banner::before,
     .intro--banner::after {
         display: none
-    }
+    }*/
     .intro--banner h1 {
         margin-top: 0
     }
