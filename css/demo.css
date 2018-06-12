@@ -15,7 +15,7 @@
 .clearfix:after { clear: both; }
 
 body {
-	background: #1B1B1B;
+	background: #0c0c0c;
 	color: #fff;
 	font-weight: 400;
 	font-size: 1em;
@@ -32,7 +32,7 @@ a {
 }*/
 
 /* Demo colors */
-.demo-1 { background: #121811/*#1B1B1B*/; }
+.demo-1 { background: #0c0c0c/*#1B1B1B*/; }
 .demo-1 a { color: #ffffff; }
 
 .demo-2 { background: #72d0f4; }

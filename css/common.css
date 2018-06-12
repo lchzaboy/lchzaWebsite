@@ -334,8 +334,8 @@ sub
 
 .one,  .one_half,  .one_third,  .two_third,  .three_fourth, 
 .one_fourth{
-    margin-right: 200px;
-    float: left;
+    /*margin-right: 80px;*/
+     float: left;
     position: relative;
     margin-bottom: 30px;
 }
@@ -511,7 +511,7 @@ a img.aligncenter {
 }
 
 .screen-reader-text:focus {
-	background-color: #f1f1f1;
+	/*background-color: #f1f1f1;*/
 	border-radius: 3px;
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 	clip: auto !important;
