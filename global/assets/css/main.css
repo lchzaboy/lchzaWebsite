@@ -287,6 +287,9 @@ body {
     -webkit-text-size-adjust: 100%
 }
 
+.pagina {
+    max-width: 1280px;
+}
 .l-viewport {
     position: relative;
     width: 100%;
@@ -475,10 +478,13 @@ body {
     transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out
 }
 
+ul {
+    overflow: auto;
+}
 .header {
-    position: absolute;
-    top: 0;
-    left: 0;
+   /* position: absolute;*/
+    margin-top: 40px;
+    padding: 40px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
