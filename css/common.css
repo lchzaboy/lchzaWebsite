@@ -372,6 +372,7 @@ sub
     max-height: 400px;
     display: block;
     margin-bottom: 30px;
+    object-fit: cover;
     
 }
 

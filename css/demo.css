@@ -14,6 +14,20 @@
 .clearfix:before, .clearfix:after { content: ''; display: table; }
 .clearfix:after { clear: both; }
 
+
+
+.subtitler{
+	width:100%;
+	max-width: 400px;
+	margin: 0px auto;
+}
+
+.subtitle{
+	width: 80%;
+	max-width: 400px;
+	height: auto;
+	margin-left: 10%;
+}
 body {
 	background: #0c0c0c;
 	color: #fff;
@@ -132,7 +146,17 @@ section {
 	margin: 0;
 	text-align: left;
 }
-
+.subtitle{
+	padding: 2em 0 1em;
+	font-size: 0.8em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+}
+.subtitle h3{
+	font-weight: 100;
+}
 /* Related demos */
 .related {
 	padding: 4em 0 3em;
