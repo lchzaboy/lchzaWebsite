@@ -836,7 +836,7 @@ ul {
 .intro--options>a {
     max-width: 250px;
     text-decoration: none;
-    color: #282828;
+    color: #b3b3b3;
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out
 }
@@ -918,7 +918,7 @@ ul {
     margin: auto auto;
     max-width: 350px;
     height: auto;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     text-decoration: none;
     color: #282828;
     /*background: green;*/
@@ -956,9 +956,6 @@ ul {
         display: block;
         max-width: 100%;
         /*margin: 0*/
-    }
-    .team--options>div:last-child {
-        margin-bottom: 0
     }
 }
 /*aqui termina*/
