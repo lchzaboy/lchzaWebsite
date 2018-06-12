@@ -763,7 +763,11 @@ ul {
     font-weight: 700;
     text-transform: uppercase;
     background-color: transparent;
-    border: none
+    color: #FD3137;
+    border: none;
+    /*border-radius: 5px;
+    border-color: white;
+    border-width: .5px;*/
 }
 
 .intro--banner button .btn-background {
@@ -790,7 +794,7 @@ ul {
     position: relative;
     left: 5px;
     width: 15px;
-    fill: #fff
+    fill: #FD3137;
 }
 
 .intro--banner img {
