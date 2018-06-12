@@ -885,9 +885,9 @@ ul {
         font-size: 48px
     }
     .intro--banner img {
-        display: inline-block;
-        position: relative;
+        position: absolute;
         width: 280px;
+        opacity: 0.3;
     }
 }
 
