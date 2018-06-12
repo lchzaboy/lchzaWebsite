@@ -86,7 +86,7 @@
 
 /* Content */
 .ip-main {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	margin: auto auto;
 	padding: 80px 10px 0px 10px;
 	max-width: 1980px;
