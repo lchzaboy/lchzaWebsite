@@ -917,7 +917,8 @@ ul {
     padding: 0;
     margin: auto auto;
     max-width: 350px;
-    height: 500px;
+    height: auto;
+    margin-bottom: 100px;
     text-decoration: none;
     color: #282828;
     /*background: green;*/
@@ -938,14 +939,14 @@ ul {
     margin-bottom: 0
 }
 
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
     .team--options>div {
         margin-right: 30px
     }
     .team--options>div:last-child {
         margin-right: 0
     }
-}
+}*/
 
 @media (max-width: 767px) {
     .team--options {
@@ -954,7 +955,7 @@ ul {
     .team--options>div {
         display: block;
         max-width: 100%;
-        margin: 0 0 30px 0
+        /*margin: 0*/
     }
     .team--options>div:last-child {
         margin-bottom: 0
