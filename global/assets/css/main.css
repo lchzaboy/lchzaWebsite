@@ -714,10 +714,22 @@ ul {
     -ms-flex-pack: center;
     justify-content: center;
     margin: 0 auto;
-    /*background: red;*/
+   /* background: red;*/
 }
 
 @media (max-width: 1980px) {
+    .intro {
+        max-width: 100%
+    }
+}
+
+@media (max-width: 900px){
+    .intro {
+        max-width: 80%
+    }
+}
+
+@media (max-width: 600px){
     .intro {
         max-width: 100%
     }
@@ -896,14 +908,14 @@ ul {
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin: 0;
-    margin-top:50px; 
+    margin-top:100px; 
     padding-left: 20%;
     padding-right:20%;
     list-style: none;
     text-align: center;
 }
 
-.team--options>a {
+.team--options>div {
     padding: 0;
     max-width: 350px;
     height: 500px;
@@ -928,10 +940,10 @@ ul {
 }
 
 @media (max-width: 900px) {
-    .team--options>a {
+    .team--options>div {
         margin-right: 30px
     }
-    .team--options>a:last-child {
+    .team--options>div:last-child {
         margin-right: 0
     }
 }
@@ -940,12 +952,12 @@ ul {
     .team--options {
         display: block
     }
-    .team--options>a {
+    .team--options>div {
         display: block;
         max-width: 100%;
         margin: 0 0 30px 0
     }
-    .team--options>a:last-child {
+    .team--options>div:last-child {
         margin-bottom: 0
     }
 }
