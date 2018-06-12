@@ -250,15 +250,15 @@ th {
 }
 
 ::-moz-selection {
-    background: #FFF498
+    background: #0f33ff
 }
 
 ::selection {
-    background: #FFF498
+    background: #0f33ff
 }
 
 ::-moz-selection {
-    background: #FFF498
+    background: #0f33ff
 }
 
 img::-moz-selection {
@@ -274,7 +274,7 @@ img::-moz-selection {
 }
 
 body {
-    -webkit-tap-highlight-color: #FFF498
+    -webkit-tap-highlight-color: #0f33ff
 }
 
 body {
@@ -746,7 +746,7 @@ ul {
     left: 0;
     width: 30px;
     height: 4px;
-    background-color: #FFA318;
+    background-color: #FD3137;
 }
 
 .intro--banner h1 {
@@ -815,6 +815,7 @@ ul {
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin: 0;
+    margin-top: 40px; 
     padding: 0;
     list-style: none;
     text-align: center;
@@ -881,6 +882,74 @@ ul {
         margin-bottom: 0
     }
 }
+
+
+/*awui yaace mi codigo*/
+
+.team--options {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0;
+    margin-top:50px; 
+    padding-left: 20%;
+    padding-right:20%;
+    list-style: none;
+    text-align: center;
+}
+
+.team--options>a {
+    padding: 0;
+    max-width: 350px;
+    height: 500px;
+    text-decoration: none;
+    color: #282828;
+    /*background: green;*/
+    -webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out
+}
+
+.team--options>a:hover {
+    color: #fff
+}
+
+.team--options h3 {
+    font-size: 16px;
+    text-transform: uppercase
+}
+
+.team--options p {
+    margin-bottom: 0
+}
+
+@media (max-width: 900px) {
+    .team--options>a {
+        margin-right: 30px
+    }
+    .team--options>a:last-child {
+        margin-right: 0
+    }
+}
+
+@media (max-width: 767px) {
+    .team--options {
+        display: block
+    }
+    .team--options>a {
+        display: block;
+        max-width: 100%;
+        margin: 0 0 30px 0
+    }
+    .team--options>a:last-child {
+        margin-bottom: 0
+    }
+}
+/*aqui termina*/
 
 @media (max-width: 600px) {
     .intro--banner {

@@ -81,7 +81,7 @@
 .ip-header .ip-loader svg path.ip-loader-circle {
 	-webkit-transition: stroke-dashoffset 0.2s;
 	transition: stroke-dashoffset 0.2s;
-	stroke: #FFA318;
+	stroke: #FD3137;
 }
 
 /* Content */
@@ -96,7 +96,7 @@
 .ip-main h2 {
 	margin: 0;
 	padding: 0.5em 0 1em;
-	color: #FFA318;
+	color: #FD3137;
 	text-align: center;
 	font-size: 50px;
 	/*font-size: 3.25em;
@@ -232,7 +232,7 @@
 .loaded .ip-logo svg path {
 	-webkit-transition: all 0.5s ease 0.3s;
 	transition: all 0.5s ease 0.3s;
-	fill: #FFA318;
+	fill: #FD3137;
 }
 
 /* Header animation when loading finishes */
